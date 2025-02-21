@@ -1,1 +1,26 @@
-IDI NAXYI
+using System;
+using System.Windows.Forms;
+using System.Drawing;
+
+namespace DynamicFormCreation
+{
+    public class DynamicForm : Form
+    {
+        public DynamicForm()
+        {
+            this.Text = "Динамически созданная форма";
+            this.Size = new Size(300, 200);
+
+            Button button = new Button();
+            button.Text = "Кнопка";
+            button.Location = new Point(100, 50);
+            button.Click += Button_Click;
+            this.Controls.Add(button);
+        }
+
+        private void Button_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Кнопка нажата!");
+        }
+    }
+}
