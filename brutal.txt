@@ -12,7 +12,7 @@ namespace DynamicFormCreation
             this.Size = new Size(300, 200);
 
             Button button = new Button();
-            button.Text = "Кнопка";
+            button.Text = "Кнпка";
             button.Location = new Point(100, 50);
             button.Click += Button_Click;
             this.Controls.Add(button);
