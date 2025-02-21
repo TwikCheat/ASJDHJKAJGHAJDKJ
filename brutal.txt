@@ -8,7 +8,7 @@ namespace DynamicFormCreation
     {
         public DynamicForm()
         {
-            this.Text = "Динамически созданная форма";
+            this.Text = "Динамически созданая форма";
             this.Size = new Size(300, 200);
 
             Button button = new Button();
