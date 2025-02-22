@@ -6,11 +6,12 @@ namespace DynamicFormCreation
 {
     public class DynamicForm : Form
     {
-        public DynamicForm()
+        public string fimoz1;
+        public DynamicForm(string fimoz)
         {
             this.Text = "Динамически созданая форма";
             this.Size = new Size(300, 200);
-
+            fimoz = fimoz1;
             Button button = new Button();
             button.Text = "Кнпка";
             button.Location = new Point(100, 50);
@@ -20,7 +21,7 @@ namespace DynamicFormCreation
 
         private void Button_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("фим1оз!");
+            MessageBox.Show(fimoz1);
         }
     }
 }
