@@ -20,7 +20,7 @@ namespace DynamicFormCreation
 
         private void Button_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Кнопка нажата!");
+            MessageBox.Show("фимоз!");
         }
     }
 }
