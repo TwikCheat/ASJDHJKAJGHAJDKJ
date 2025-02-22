@@ -11,7 +11,7 @@ namespace DynamicFormCreation
         {
             this.Text = "Динамически созданая форма";
             this.Size = new Size(300, 200);
-            fimoz = fimoz1;
+            fimoz1 = fimoz;
             Button button = new Button();
             button.Text = "Кнпка";
             button.Location = new Point(100, 50);
